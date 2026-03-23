@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "ship-saas-mvp",
+    "name": "Ship a SaaS MVP",
+    "description": "Go from scope to production release with quality and observability.",
+    "skills": [
+      "mvp-scope-definition",
+      "requirements-clarifier",
+      "api-design",
+      "feature-implementation",
+      "test-driven-development",
+      "ci-pipeline-optimizer",
+      "launch-readiness-check"
+    ]
+  },
+  {
+    "slug": "audit-improve-codebase",
+    "name": "Audit and improve a codebase",
+    "description": "Assess architecture, risk, and maintainability then execute targeted upgrades.",
+    "skills": [
+      "architecture-review",
+      "security-review",
+      "performance-profiling",
+      "refactor-legacy-code",
+      "documentation-writer",
+      "release-automation"
+    ]
+  },
+  {
+    "slug": "build-ai-agent-feature",
+    "name": "Build an AI agent feature",
+    "description": "Design, implement, and evaluate an agent capability in product context.",
+    "skills": [
+      "context-engineering",
+      "mcp-server-design",
+      "rag-pipeline-design",
+      "eval-suite-design",
+      "safety-evals",
+      "feature-implementation"
+    ]
+  },
+  {
+    "slug": "fix-production-bugs",
+    "name": "Investigate and fix production bugs",
+    "description": "Reproduce, triage, patch, and verify incidents.",
+    "skills": [
+      "bug-reproduction",
+      "log-triage",
+      "debug-root-cause",
+      "regression-hunt",
+      "integration-test-planner",
+      "runbook-writer"
+    ]
+  },
+  {
+    "slug": "harden-prompts-context",
+    "name": "Harden prompts and context handling",
+    "description": "Reduce prompt injection and context leakage risk.",
+    "skills": [
+      "prompt-hardening",
+      "threat-modeling",
+      "context-engineering",
+      "authz-authn-review",
+      "safety-evals"
+    ]
+  },
+  {
+    "slug": "design-test-mcp-server",
+    "name": "Design and test an MCP server",
+    "description": "Specify MCP interactions and validate contract and runtime behavior.",
+    "skills": [
+      "mcp-server-design",
+      "api-design",
+      "contract-testing",
+      "integration-test-planner",
+      "performance-profiling"
+    ]
+  }
+]

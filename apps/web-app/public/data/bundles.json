@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "starter-developer",
+    "name": "Starter Developer Pack",
+    "description": "Foundation skills for daily coding and planning.",
+    "skills": [
+      "brainstorming",
+      "roadmap-planning",
+      "risk-register",
+      "feature-implementation",
+      "pair-programming-mode",
+      "frontend-component-builder",
+      "test-driven-development",
+      "integration-test-planner",
+      "contract-testing",
+      "documentation-writer",
+      "changelog-curator",
+      "api-docs-generator"
+    ]
+  },
+  {
+    "slug": "ai-engineer",
+    "name": "AI Engineer Pack",
+    "description": "Skills for LLM, context, evals, and agent systems.",
+    "skills": [
+      "mcp-server-design",
+      "prompt-hardening",
+      "eval-suite-design",
+      "context-engineering",
+      "rag-pipeline-design",
+      "agent-memory-strategy",
+      "safety-evals"
+    ]
+  },
+  {
+    "slug": "debugging-pack",
+    "name": "Debugging Pack",
+    "description": "Fast incident diagnosis and repair workflows.",
+    "skills": [
+      "debug-root-cause",
+      "bug-reproduction",
+      "log-triage",
+      "incident-timeline-reconstruction",
+      "regression-hunt",
+      "state-machine-debugging",
+      "flaky-test-investigation",
+      "performance-profiling",
+      "memory-leak-hunt"
+    ]
+  },
+  {
+    "slug": "security-pack",
+    "name": "Security Pack",
+    "description": "Secure coding and review practices.",
+    "skills": [
+      "security-review",
+      "threat-modeling",
+      "authz-authn-review",
+      "secret-leak-response",
+      "prompt-hardening",
+      "github-actions-author",
+      "container-hardening"
+    ]
+  },
+  {
+    "slug": "mvp-builder",
+    "name": "MVP Builder Pack",
+    "description": "From scope to launch for new products.",
+    "skills": [
+      "roadmap-planning",
+      "requirements-clarifier",
+      "api-design",
+      "feature-implementation",
+      "release-automation",
+      "mvp-scope-definition",
+      "launch-readiness-check"
+    ]
+  },
+  {
+    "slug": "documentation-pack",
+    "name": "Documentation Pack",
+    "description": "Authoring docs, runbooks, and release notes.",
+    "skills": [
+      "documentation-writer",
+      "adr-writer",
+      "changelog-curator",
+      "onboarding-guide-author",
+      "api-docs-generator",
+      "runbook-writer"
+    ]
+  }
+]
