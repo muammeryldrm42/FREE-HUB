@@ -4,9 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 function useData(file) {
   const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch(`/data/${file}`).then((r) => r.json()).then(setData);
-  }, [file]);
+  useEffect(() => { fetch(`/data/${file}`).then((r) => r.json()).then(setData); }, [file]);
   return data;
 }
 
