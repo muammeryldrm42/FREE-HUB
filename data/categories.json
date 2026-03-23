@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "planning",
+    "name": "Planning"
+  },
+  {
+    "slug": "architecture",
+    "name": "Architecture"
+  },
+  {
+    "slug": "coding",
+    "name": "Coding"
+  },
+  {
+    "slug": "debugging",
+    "name": "Debugging"
+  },
+  {
+    "slug": "testing",
+    "name": "Testing"
+  },
+  {
+    "slug": "security",
+    "name": "Security"
+  },
+  {
+    "slug": "devops",
+    "name": "Devops"
+  },
+  {
+    "slug": "documentation",
+    "name": "Documentation"
+  },
+  {
+    "slug": "ai-engineering",
+    "name": "Ai Engineering"
+  },
+  {
+    "slug": "product",
+    "name": "Product"
+  },
+  {
+    "slug": "performance",
+    "name": "Performance"
+  },
+  {
+    "slug": "refactoring",
+    "name": "Refactoring"
+  },
+  {
+    "slug": "research",
+    "name": "Research"
+  }
+]
