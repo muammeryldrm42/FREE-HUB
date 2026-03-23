@@ -1,6 +1,0 @@
-# Auto-resolve recurring PR conflict hotspots by preferring the target branch version.
-# This keeps merges unblocked when these files diverge in long-lived branches.
-README.md merge=ours
-apps/web-app/src/App.jsx merge=ours
-apps/web-app/src/main.jsx merge=ours
-tools/install.js merge=ours

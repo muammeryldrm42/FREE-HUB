@@ -16,9 +16,7 @@ Teams need reusable, validated operating playbooks—not loose prompt snippets. 
 ```bash
 npm install
 npm run generate
-npm run install -- --list
-npm run install -- --tool codex-cli --all --dry-run
-npm run install -- --tool codex-cli --all
+npm run install -- --tool codex-cli
 ```
 
 ## Browse skills
@@ -54,7 +52,3 @@ Read `CONTRIBUTING.md`, `docs/contributors/quality-bar.md`, and `docs/contributo
 
 ## License notes
 Code license: `LICENSE` (MIT). Skill content license: `LICENSE-CONTENT` (CC BY 4.0). All implementation/content in this repository is original.
-
-
-## Pages routing note
-The web app uses hash-based routing for reliable GitHub Pages deep-link support.

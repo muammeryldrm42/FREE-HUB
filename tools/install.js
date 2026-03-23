@@ -5,20 +5,12 @@ const { ROOT, TOOL_DEFAULT_PATHS } = require('./constants');
 const { readJson } = require('./lib');
 
 const args = process.argv.slice(2);
-const opts = { skills: [], dryRun: false, all: false };
-
-if (args.length === 0) {
-  console.log('Talons Skills Hub installer');
-  console.log('Usage: npm run install -- --tool codex-cli --all | --bundle <slug> | --skill <slug> [--dry-run] [--path <dir>]');
-  console.log('Tip: use --list to see all skill and bundle slugs.');
-  process.exit(0);
-}
+const opts = { skills: [], dryRun: false };
 
 for (let i = 0; i < args.length; i++) {
   const arg = args[i];
   if (arg === '--dry-run') opts.dryRun = true;
   else if (arg === '--list') opts.list = true;
-  else if (arg === '--all') opts.all = true;
   else if (arg === '--tool') opts.tool = args[++i];
   else if (arg === '--bundle') opts.bundle = args[++i];
   else if (arg === '--skill') opts.skills.push(args[++i]);
@@ -43,7 +35,7 @@ if (!skills.length) {
   process.exit(0);
 }
 
-let selected = [];
+let selected = skills.map((s) => s.slug);
 if (opts.bundle) {
   const bundle = bundles.find((b) => b.slug === opts.bundle);
   if (!bundle) {
@@ -51,14 +43,8 @@ if (opts.bundle) {
     process.exit(1);
   }
   selected = bundle.skills;
-} else if (opts.skills.length > 0) {
-  selected = opts.skills;
-} else if (opts.all || opts.tool) {
-  selected = skills.map((s) => s.slug);
-} else {
-  console.error('No install target selected. Use --all, --bundle, or one/more --skill arguments.');
-  process.exit(1);
 }
+if (opts.skills.length > 0) selected = opts.skills;
 
 const target = opts.path
   || (opts.tool && TOOL_DEFAULT_PATHS[opts.tool])
@@ -70,7 +56,9 @@ console.log(`Installing ${selected.length} skill(s) to ${expanded}`);
 if (opts.tool) console.log(`Target tool profile: ${opts.tool}`);
 if (opts.dryRun) {
   console.log('Dry run enabled. No files copied.');
-  for (const slug of selected) console.log(`- would copy skills/${slug}/SKILL.md`);
+  for (const slug of selected) {
+    console.log(`- would copy skills/${slug}/SKILL.md`);
+  }
   process.exit(0);
 }
 
