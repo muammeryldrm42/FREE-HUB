@@ -1,0 +1,19 @@
+{
+  "name": "talons-skills-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Talons Skills Hub: installable AI skill library with validation, catalog generation, and static web browsing.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node tools/validate.js",
+    "lint:skills": "node tools/lint-skills.js",
+    "generate:index": "node tools/generate-index.js",
+    "generate:catalog": "node tools/generate-catalog.js",
+    "generate": "npm run generate:index && npm run generate:catalog && node tools/sync-web-app.js",
+    "install": "node tools/install.js",
+    "app:install": "npm --prefix apps/web-app install",
+    "app:dev": "npm --prefix apps/web-app run dev",
+    "app:build": "npm --prefix apps/web-app run build",
+    "build:all": "npm run validate && npm run generate && npm run app:build"
+  }
+}
