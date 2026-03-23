@@ -1,0 +1,1562 @@
+[
+  {
+    "name": "Acceptance Criteria Design",
+    "slug": "acceptance-criteria-design",
+    "category": "product",
+    "tags": [
+      "product",
+      "strategy",
+      "execution"
+    ],
+    "description": "Acceptance Criteria Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/acceptance-criteria-design/SKILL.md",
+    "content": "---\nname: Acceptance Criteria Design\nslug: acceptance-criteria-design\ndescription: Acceptance Criteria Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: product\ntags:\n  - product\n  - strategy\n  - execution\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need acceptance criteria design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use acceptance-criteria-design to plan this feature delivery.\"\n- \"Run acceptance-criteria-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "ADR Writer",
+    "slug": "adr-writer",
+    "category": "documentation",
+    "tags": [
+      "documentation",
+      "communication",
+      "clarity"
+    ],
+    "description": "ADR Writer playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/adr-writer/SKILL.md",
+    "content": "---\nname: ADR Writer\nslug: adr-writer\ndescription: ADR Writer playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: documentation\ntags:\n  - documentation\n  - communication\n  - clarity\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need adr writer for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use adr-writer to plan this feature delivery.\"\n- \"Run adr-writer against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Agent Memory Strategy",
+    "slug": "agent-memory-strategy",
+    "category": "ai-engineering",
+    "tags": [
+      "ai",
+      "agents",
+      "llm"
+    ],
+    "description": "Agent Memory Strategy playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/agent-memory-strategy/SKILL.md",
+    "content": "---\nname: Agent Memory Strategy\nslug: agent-memory-strategy\ndescription: Agent Memory Strategy playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: ai-engineering\ntags:\n  - ai\n  - agents\n  - llm\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need agent memory strategy for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use agent-memory-strategy to plan this feature delivery.\"\n- \"Run agent-memory-strategy against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Agent Workflow Planning",
+    "slug": "agent-workflow-planning",
+    "category": "planning",
+    "tags": [
+      "planning",
+      "alignment",
+      "scope"
+    ],
+    "description": "Agent Workflow Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/agent-workflow-planning/SKILL.md",
+    "content": "---\nname: Agent Workflow Planning\nslug: agent-workflow-planning\ndescription: Agent Workflow Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: planning\ntags:\n  - planning\n  - alignment\n  - scope\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need agent workflow planning for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use agent-workflow-planning to plan this feature delivery.\"\n- \"Run agent-workflow-planning against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "API Design",
+    "slug": "api-design",
+    "category": "architecture",
+    "tags": [
+      "architecture",
+      "systems",
+      "design"
+    ],
+    "description": "API Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/api-design/SKILL.md",
+    "content": "---\nname: API Design\nslug: api-design\ndescription: API Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: architecture\ntags:\n  - architecture\n  - systems\n  - design\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need api design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use api-design to plan this feature delivery.\"\n- \"Run api-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "API Docs Generator",
+    "slug": "api-docs-generator",
+    "category": "documentation",
+    "tags": [
+      "documentation",
+      "communication",
+      "clarity"
+    ],
+    "description": "API Docs Generator playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/api-docs-generator/SKILL.md",
+    "content": "---\nname: API Docs Generator\nslug: api-docs-generator\ndescription: API Docs Generator playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: documentation\ntags:\n  - documentation\n  - communication\n  - clarity\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need api docs generator for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use api-docs-generator to plan this feature delivery.\"\n- \"Run api-docs-generator against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Architecture Review",
+    "slug": "architecture-review",
+    "category": "architecture",
+    "tags": [
+      "architecture",
+      "systems",
+      "design"
+    ],
+    "description": "Architecture Review playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/architecture-review/SKILL.md",
+    "content": "---\nname: Architecture Review\nslug: architecture-review\ndescription: Architecture Review playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: architecture\ntags:\n  - architecture\n  - systems\n  - design\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need architecture review for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use architecture-review to plan this feature delivery.\"\n- \"Run architecture-review against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "AuthN/AuthZ Review",
+    "slug": "authz-authn-review",
+    "category": "security",
+    "tags": [
+      "security",
+      "risk",
+      "hardening"
+    ],
+    "description": "AuthN/AuthZ Review playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/authz-authn-review/SKILL.md",
+    "content": "---\nname: AuthN/AuthZ Review\nslug: authz-authn-review\ndescription: AuthN/AuthZ Review playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: security\ntags:\n  - security\n  - risk\n  - hardening\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need authn/authz review for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use authz-authn-review to plan this feature delivery.\"\n- \"Run authz-authn-review against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Backend Endpoint Implementation",
+    "slug": "backend-endpoint-implementation",
+    "category": "coding",
+    "tags": [
+      "coding",
+      "implementation",
+      "delivery"
+    ],
+    "description": "Backend Endpoint Implementation playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/backend-endpoint-implementation/SKILL.md",
+    "content": "---\nname: Backend Endpoint Implementation\nslug: backend-endpoint-implementation\ndescription: Backend Endpoint Implementation playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: coding\ntags:\n  - coding\n  - implementation\n  - delivery\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need backend endpoint implementation for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use backend-endpoint-implementation to plan this feature delivery.\"\n- \"Run backend-endpoint-implementation against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Benchmark Study Design",
+    "slug": "benchmark-study-design",
+    "category": "research",
+    "tags": [
+      "research",
+      "analysis",
+      "evidence"
+    ],
+    "description": "Benchmark Study Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/benchmark-study-design/SKILL.md",
+    "content": "---\nname: Benchmark Study Design\nslug: benchmark-study-design\ndescription: Benchmark Study Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: research\ntags:\n  - research\n  - analysis\n  - evidence\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need benchmark study design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use benchmark-study-design to plan this feature delivery.\"\n- \"Run benchmark-study-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Brainstorming",
+    "slug": "brainstorming",
+    "category": "planning",
+    "tags": [
+      "planning",
+      "alignment",
+      "scope"
+    ],
+    "description": "Brainstorming playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/brainstorming/SKILL.md",
+    "content": "---\nname: Brainstorming\nslug: brainstorming\ndescription: Brainstorming playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: planning\ntags:\n  - planning\n  - alignment\n  - scope\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need brainstorming for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use brainstorming to plan this feature delivery.\"\n- \"Run brainstorming against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Bug Reproduction",
+    "slug": "bug-reproduction",
+    "category": "debugging",
+    "tags": [
+      "debugging",
+      "investigation",
+      "reliability"
+    ],
+    "description": "Bug Reproduction playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/bug-reproduction/SKILL.md",
+    "content": "---\nname: Bug Reproduction\nslug: bug-reproduction\ndescription: Bug Reproduction playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: debugging\ntags:\n  - debugging\n  - investigation\n  - reliability\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need bug reproduction for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use bug-reproduction to plan this feature delivery.\"\n- \"Run bug-reproduction against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Cache Strategy Design",
+    "slug": "cache-strategy-design",
+    "category": "performance",
+    "tags": [
+      "performance",
+      "scalability",
+      "optimization"
+    ],
+    "description": "Cache Strategy Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/cache-strategy-design/SKILL.md",
+    "content": "---\nname: Cache Strategy Design\nslug: cache-strategy-design\ndescription: Cache Strategy Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: performance\ntags:\n  - performance\n  - scalability\n  - optimization\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need cache strategy design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use cache-strategy-design to plan this feature delivery.\"\n- \"Run cache-strategy-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Changelog Curator",
+    "slug": "changelog-curator",
+    "category": "documentation",
+    "tags": [
+      "documentation",
+      "communication",
+      "clarity"
+    ],
+    "description": "Changelog Curator playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/changelog-curator/SKILL.md",
+    "content": "---\nname: Changelog Curator\nslug: changelog-curator\ndescription: Changelog Curator playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: documentation\ntags:\n  - documentation\n  - communication\n  - clarity\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need changelog curator for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use changelog-curator to plan this feature delivery.\"\n- \"Run changelog-curator against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "CI Pipeline Optimizer",
+    "slug": "ci-pipeline-optimizer",
+    "category": "devops",
+    "tags": [
+      "devops",
+      "automation",
+      "operations"
+    ],
+    "description": "CI Pipeline Optimizer playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/ci-pipeline-optimizer/SKILL.md",
+    "content": "---\nname: CI Pipeline Optimizer\nslug: ci-pipeline-optimizer\ndescription: CI Pipeline Optimizer playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: devops\ntags:\n  - devops\n  - automation\n  - operations\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need ci pipeline optimizer for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use ci-pipeline-optimizer to plan this feature delivery.\"\n- \"Run ci-pipeline-optimizer against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "CLI Tooling Builder",
+    "slug": "cli-tooling-builder",
+    "category": "coding",
+    "tags": [
+      "coding",
+      "implementation",
+      "delivery"
+    ],
+    "description": "CLI Tooling Builder playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/cli-tooling-builder/SKILL.md",
+    "content": "---\nname: CLI Tooling Builder\nslug: cli-tooling-builder\ndescription: CLI Tooling Builder playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: coding\ntags:\n  - coding\n  - implementation\n  - delivery\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need cli tooling builder for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use cli-tooling-builder to plan this feature delivery.\"\n- \"Run cli-tooling-builder against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Code Generation Guardrails",
+    "slug": "code-generation-guardrails",
+    "category": "coding",
+    "tags": [
+      "coding",
+      "implementation",
+      "delivery"
+    ],
+    "description": "Code Generation Guardrails playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/code-generation-guardrails/SKILL.md",
+    "content": "---\nname: Code Generation Guardrails\nslug: code-generation-guardrails\ndescription: Code Generation Guardrails playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: coding\ntags:\n  - coding\n  - implementation\n  - delivery\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need code generation guardrails for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use code-generation-guardrails to plan this feature delivery.\"\n- \"Run code-generation-guardrails against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Competitive Research Brief",
+    "slug": "competitive-research-brief",
+    "category": "research",
+    "tags": [
+      "research",
+      "analysis",
+      "evidence"
+    ],
+    "description": "Competitive Research Brief playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/competitive-research-brief/SKILL.md",
+    "content": "---\nname: Competitive Research Brief\nslug: competitive-research-brief\ndescription: Competitive Research Brief playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: research\ntags:\n  - research\n  - analysis\n  - evidence\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need competitive research brief for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use competitive-research-brief to plan this feature delivery.\"\n- \"Run competitive-research-brief against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Complexity Reduction",
+    "slug": "complexity-reduction",
+    "category": "refactoring",
+    "tags": [
+      "refactoring",
+      "maintainability",
+      "cleanup"
+    ],
+    "description": "Complexity Reduction playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/complexity-reduction/SKILL.md",
+    "content": "---\nname: Complexity Reduction\nslug: complexity-reduction\ndescription: Complexity Reduction playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: refactoring\ntags:\n  - refactoring\n  - maintainability\n  - cleanup\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need complexity reduction for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use complexity-reduction to plan this feature delivery.\"\n- \"Run complexity-reduction against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Container Hardening",
+    "slug": "container-hardening",
+    "category": "devops",
+    "tags": [
+      "devops",
+      "automation",
+      "operations"
+    ],
+    "description": "Container Hardening playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/container-hardening/SKILL.md",
+    "content": "---\nname: Container Hardening\nslug: container-hardening\ndescription: Container Hardening playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: devops\ntags:\n  - devops\n  - automation\n  - operations\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need container hardening for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use container-hardening to plan this feature delivery.\"\n- \"Run container-hardening against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Context Engineering",
+    "slug": "context-engineering",
+    "category": "ai-engineering",
+    "tags": [
+      "ai",
+      "agents",
+      "llm"
+    ],
+    "description": "Context Engineering playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/context-engineering/SKILL.md",
+    "content": "---\nname: Context Engineering\nslug: context-engineering\ndescription: Context Engineering playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: ai-engineering\ntags:\n  - ai\n  - agents\n  - llm\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need context engineering for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use context-engineering to plan this feature delivery.\"\n- \"Run context-engineering against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Contract Testing",
+    "slug": "contract-testing",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "quality",
+      "verification"
+    ],
+    "description": "Contract Testing playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/contract-testing/SKILL.md",
+    "content": "---\nname: Contract Testing\nslug: contract-testing\ndescription: Contract Testing playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: testing\ntags:\n  - testing\n  - quality\n  - verification\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need contract testing for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use contract-testing to plan this feature delivery.\"\n- \"Run contract-testing against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Dead Code Elimination",
+    "slug": "dead-code-elimination",
+    "category": "refactoring",
+    "tags": [
+      "refactoring",
+      "maintainability",
+      "cleanup"
+    ],
+    "description": "Dead Code Elimination playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/dead-code-elimination/SKILL.md",
+    "content": "---\nname: Dead Code Elimination\nslug: dead-code-elimination\ndescription: Dead Code Elimination playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: refactoring\ntags:\n  - refactoring\n  - maintainability\n  - cleanup\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need dead code elimination for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use dead-code-elimination to plan this feature delivery.\"\n- \"Run dead-code-elimination against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Debug Root Cause",
+    "slug": "debug-root-cause",
+    "category": "debugging",
+    "tags": [
+      "debugging",
+      "investigation",
+      "reliability"
+    ],
+    "description": "Debug Root Cause playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/debug-root-cause/SKILL.md",
+    "content": "---\nname: Debug Root Cause\nslug: debug-root-cause\ndescription: Debug Root Cause playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: debugging\ntags:\n  - debugging\n  - investigation\n  - reliability\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need debug root cause for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use debug-root-cause to plan this feature delivery.\"\n- \"Run debug-root-cause against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Dependency Decoupling",
+    "slug": "dependency-decoupling",
+    "category": "refactoring",
+    "tags": [
+      "refactoring",
+      "maintainability",
+      "cleanup"
+    ],
+    "description": "Dependency Decoupling playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/dependency-decoupling/SKILL.md",
+    "content": "---\nname: Dependency Decoupling\nslug: dependency-decoupling\ndescription: Dependency Decoupling playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: refactoring\ntags:\n  - refactoring\n  - maintainability\n  - cleanup\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need dependency decoupling for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use dependency-decoupling to plan this feature delivery.\"\n- \"Run dependency-decoupling against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Dependency Vulnerability Response",
+    "slug": "dependency-vulnerability-response",
+    "category": "security",
+    "tags": [
+      "security",
+      "risk",
+      "hardening"
+    ],
+    "description": "Dependency Vulnerability Response playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/dependency-vulnerability-response/SKILL.md",
+    "content": "---\nname: Dependency Vulnerability Response\nslug: dependency-vulnerability-response\ndescription: Dependency Vulnerability Response playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: security\ntags:\n  - security\n  - risk\n  - hardening\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need dependency vulnerability response for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use dependency-vulnerability-response to plan this feature delivery.\"\n- \"Run dependency-vulnerability-response against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Developer Interview Synthesis",
+    "slug": "developer-interview-synthesis",
+    "category": "research",
+    "tags": [
+      "research",
+      "analysis",
+      "evidence"
+    ],
+    "description": "Developer Interview Synthesis playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/developer-interview-synthesis/SKILL.md",
+    "content": "---\nname: Developer Interview Synthesis\nslug: developer-interview-synthesis\ndescription: Developer Interview Synthesis playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: research\ntags:\n  - research\n  - analysis\n  - evidence\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need developer interview synthesis for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use developer-interview-synthesis to plan this feature delivery.\"\n- \"Run developer-interview-synthesis against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Documentation Writer",
+    "slug": "documentation-writer",
+    "category": "documentation",
+    "tags": [
+      "documentation",
+      "communication",
+      "clarity"
+    ],
+    "description": "Documentation Writer playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/documentation-writer/SKILL.md",
+    "content": "---\nname: Documentation Writer\nslug: documentation-writer\ndescription: Documentation Writer playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: documentation\ntags:\n  - documentation\n  - communication\n  - clarity\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need documentation writer for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use documentation-writer to plan this feature delivery.\"\n- \"Run documentation-writer against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Domain Modeling",
+    "slug": "domain-modeling",
+    "category": "architecture",
+    "tags": [
+      "architecture",
+      "systems",
+      "design"
+    ],
+    "description": "Domain Modeling playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/domain-modeling/SKILL.md",
+    "content": "---\nname: Domain Modeling\nslug: domain-modeling\ndescription: Domain Modeling playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: architecture\ntags:\n  - architecture\n  - systems\n  - design\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need domain modeling for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use domain-modeling to plan this feature delivery.\"\n- \"Run domain-modeling against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "E2E Test Design",
+    "slug": "e2e-test-design",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "quality",
+      "verification"
+    ],
+    "description": "E2E Test Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/e2e-test-design/SKILL.md",
+    "content": "---\nname: E2E Test Design\nslug: e2e-test-design\ndescription: E2E Test Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: testing\ntags:\n  - testing\n  - quality\n  - verification\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need e2e test design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use e2e-test-design to plan this feature delivery.\"\n- \"Run e2e-test-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Eval Suite Design",
+    "slug": "eval-suite-design",
+    "category": "ai-engineering",
+    "tags": [
+      "ai",
+      "agents",
+      "llm"
+    ],
+    "description": "Eval Suite Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/eval-suite-design/SKILL.md",
+    "content": "---\nname: Eval Suite Design\nslug: eval-suite-design\ndescription: Eval Suite Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: ai-engineering\ntags:\n  - ai\n  - agents\n  - llm\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need eval suite design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use eval-suite-design to plan this feature delivery.\"\n- \"Run eval-suite-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Event Driven Design",
+    "slug": "event-driven-design",
+    "category": "architecture",
+    "tags": [
+      "architecture",
+      "systems",
+      "design"
+    ],
+    "description": "Event Driven Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/event-driven-design/SKILL.md",
+    "content": "---\nname: Event Driven Design\nslug: event-driven-design\ndescription: Event Driven Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: architecture\ntags:\n  - architecture\n  - systems\n  - design\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need event driven design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use event-driven-design to plan this feature delivery.\"\n- \"Run event-driven-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Experiment Design",
+    "slug": "experiment-design",
+    "category": "product",
+    "tags": [
+      "product",
+      "strategy",
+      "execution"
+    ],
+    "description": "Experiment Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/experiment-design/SKILL.md",
+    "content": "---\nname: Experiment Design\nslug: experiment-design\ndescription: Experiment Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: product\ntags:\n  - product\n  - strategy\n  - execution\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need experiment design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use experiment-design to plan this feature delivery.\"\n- \"Run experiment-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Feature Implementation",
+    "slug": "feature-implementation",
+    "category": "coding",
+    "tags": [
+      "coding",
+      "implementation",
+      "delivery"
+    ],
+    "description": "Feature Implementation playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/feature-implementation/SKILL.md",
+    "content": "---\nname: Feature Implementation\nslug: feature-implementation\ndescription: Feature Implementation playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: coding\ntags:\n  - coding\n  - implementation\n  - delivery\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need feature implementation for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use feature-implementation to plan this feature delivery.\"\n- \"Run feature-implementation against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Flaky Test Investigation",
+    "slug": "flaky-test-investigation",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "quality",
+      "verification"
+    ],
+    "description": "Flaky Test Investigation playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/flaky-test-investigation/SKILL.md",
+    "content": "---\nname: Flaky Test Investigation\nslug: flaky-test-investigation\ndescription: Flaky Test Investigation playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: testing\ntags:\n  - testing\n  - quality\n  - verification\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need flaky test investigation for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use flaky-test-investigation to plan this feature delivery.\"\n- \"Run flaky-test-investigation against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Frontend Component Builder",
+    "slug": "frontend-component-builder",
+    "category": "coding",
+    "tags": [
+      "coding",
+      "implementation",
+      "delivery"
+    ],
+    "description": "Frontend Component Builder playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/frontend-component-builder/SKILL.md",
+    "content": "---\nname: Frontend Component Builder\nslug: frontend-component-builder\ndescription: Frontend Component Builder playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: coding\ntags:\n  - coding\n  - implementation\n  - delivery\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need frontend component builder for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use frontend-component-builder to plan this feature delivery.\"\n- \"Run frontend-component-builder against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "GitHub Actions Author",
+    "slug": "github-actions-author",
+    "category": "devops",
+    "tags": [
+      "devops",
+      "automation",
+      "operations"
+    ],
+    "description": "GitHub Actions Author playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/github-actions-author/SKILL.md",
+    "content": "---\nname: GitHub Actions Author\nslug: github-actions-author\ndescription: GitHub Actions Author playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: devops\ntags:\n  - devops\n  - automation\n  - operations\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need github actions author for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use github-actions-author to plan this feature delivery.\"\n- \"Run github-actions-author against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Incident Timeline Reconstruction",
+    "slug": "incident-timeline-reconstruction",
+    "category": "debugging",
+    "tags": [
+      "debugging",
+      "investigation",
+      "reliability"
+    ],
+    "description": "Incident Timeline Reconstruction playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/incident-timeline-reconstruction/SKILL.md",
+    "content": "---\nname: Incident Timeline Reconstruction\nslug: incident-timeline-reconstruction\ndescription: Incident Timeline Reconstruction playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: debugging\ntags:\n  - debugging\n  - investigation\n  - reliability\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need incident timeline reconstruction for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use incident-timeline-reconstruction to plan this feature delivery.\"\n- \"Run incident-timeline-reconstruction against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Infra Cost Review",
+    "slug": "infra-cost-review",
+    "category": "devops",
+    "tags": [
+      "devops",
+      "automation",
+      "operations"
+    ],
+    "description": "Infra Cost Review playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/infra-cost-review/SKILL.md",
+    "content": "---\nname: Infra Cost Review\nslug: infra-cost-review\ndescription: Infra Cost Review playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: devops\ntags:\n  - devops\n  - automation\n  - operations\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need infra cost review for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use infra-cost-review to plan this feature delivery.\"\n- \"Run infra-cost-review against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Integration Test Planner",
+    "slug": "integration-test-planner",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "quality",
+      "verification"
+    ],
+    "description": "Integration Test Planner playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/integration-test-planner/SKILL.md",
+    "content": "---\nname: Integration Test Planner\nslug: integration-test-planner\ndescription: Integration Test Planner playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: testing\ntags:\n  - testing\n  - quality\n  - verification\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need integration test planner for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use integration-test-planner to plan this feature delivery.\"\n- \"Run integration-test-planner against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Latency Budgeting",
+    "slug": "latency-budgeting",
+    "category": "performance",
+    "tags": [
+      "performance",
+      "scalability",
+      "optimization"
+    ],
+    "description": "Latency Budgeting playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/latency-budgeting/SKILL.md",
+    "content": "---\nname: Latency Budgeting\nslug: latency-budgeting\ndescription: Latency Budgeting playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: performance\ntags:\n  - performance\n  - scalability\n  - optimization\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need latency budgeting for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use latency-budgeting to plan this feature delivery.\"\n- \"Run latency-budgeting against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Launch Readiness Check",
+    "slug": "launch-readiness-check",
+    "category": "product",
+    "tags": [
+      "product",
+      "strategy",
+      "execution"
+    ],
+    "description": "Launch Readiness Check playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/launch-readiness-check/SKILL.md",
+    "content": "---\nname: Launch Readiness Check\nslug: launch-readiness-check\ndescription: Launch Readiness Check playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: product\ntags:\n  - product\n  - strategy\n  - execution\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need launch readiness check for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use launch-readiness-check to plan this feature delivery.\"\n- \"Run launch-readiness-check against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Library Evaluation Matrix",
+    "slug": "library-evaluation-matrix",
+    "category": "research",
+    "tags": [
+      "research",
+      "analysis",
+      "evidence"
+    ],
+    "description": "Library Evaluation Matrix playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/library-evaluation-matrix/SKILL.md",
+    "content": "---\nname: Library Evaluation Matrix\nslug: library-evaluation-matrix\ndescription: Library Evaluation Matrix playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: research\ntags:\n  - research\n  - analysis\n  - evidence\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need library evaluation matrix for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use library-evaluation-matrix to plan this feature delivery.\"\n- \"Run library-evaluation-matrix against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Load Test Planning",
+    "slug": "load-test-planning",
+    "category": "performance",
+    "tags": [
+      "performance",
+      "scalability",
+      "optimization"
+    ],
+    "description": "Load Test Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/load-test-planning/SKILL.md",
+    "content": "---\nname: Load Test Planning\nslug: load-test-planning\ndescription: Load Test Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: performance\ntags:\n  - performance\n  - scalability\n  - optimization\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need load test planning for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use load-test-planning to plan this feature delivery.\"\n- \"Run load-test-planning against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Log Triage",
+    "slug": "log-triage",
+    "category": "debugging",
+    "tags": [
+      "debugging",
+      "investigation",
+      "reliability"
+    ],
+    "description": "Log Triage playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/log-triage/SKILL.md",
+    "content": "---\nname: Log Triage\nslug: log-triage\ndescription: Log Triage playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: debugging\ntags:\n  - debugging\n  - investigation\n  - reliability\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need log triage for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use log-triage to plan this feature delivery.\"\n- \"Run log-triage against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "MCP Server Design",
+    "slug": "mcp-server-design",
+    "category": "architecture",
+    "tags": [
+      "architecture",
+      "systems",
+      "design"
+    ],
+    "description": "MCP Server Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/mcp-server-design/SKILL.md",
+    "content": "---\nname: MCP Server Design\nslug: mcp-server-design\ndescription: MCP Server Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: architecture\ntags:\n  - architecture\n  - systems\n  - design\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need mcp server design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use mcp-server-design to plan this feature delivery.\"\n- \"Run mcp-server-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Memory Leak Hunt",
+    "slug": "memory-leak-hunt",
+    "category": "performance",
+    "tags": [
+      "performance",
+      "scalability",
+      "optimization"
+    ],
+    "description": "Memory Leak Hunt playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/memory-leak-hunt/SKILL.md",
+    "content": "---\nname: Memory Leak Hunt\nslug: memory-leak-hunt\ndescription: Memory Leak Hunt playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: performance\ntags:\n  - performance\n  - scalability\n  - optimization\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need memory leak hunt for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use memory-leak-hunt to plan this feature delivery.\"\n- \"Run memory-leak-hunt against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Model Routing Policy",
+    "slug": "model-routing-policy",
+    "category": "ai-engineering",
+    "tags": [
+      "ai",
+      "agents",
+      "llm"
+    ],
+    "description": "Model Routing Policy playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/model-routing-policy/SKILL.md",
+    "content": "---\nname: Model Routing Policy\nslug: model-routing-policy\ndescription: Model Routing Policy playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: ai-engineering\ntags:\n  - ai\n  - agents\n  - llm\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need model routing policy for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use model-routing-policy to plan this feature delivery.\"\n- \"Run model-routing-policy against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Modularization Plan",
+    "slug": "modularization-plan",
+    "category": "refactoring",
+    "tags": [
+      "refactoring",
+      "maintainability",
+      "cleanup"
+    ],
+    "description": "Modularization Plan playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/modularization-plan/SKILL.md",
+    "content": "---\nname: Modularization Plan\nslug: modularization-plan\ndescription: Modularization Plan playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: refactoring\ntags:\n  - refactoring\n  - maintainability\n  - cleanup\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need modularization plan for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use modularization-plan to plan this feature delivery.\"\n- \"Run modularization-plan against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "MVP Scope Definition",
+    "slug": "mvp-scope-definition",
+    "category": "product",
+    "tags": [
+      "product",
+      "strategy",
+      "execution"
+    ],
+    "description": "MVP Scope Definition playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/mvp-scope-definition/SKILL.md",
+    "content": "---\nname: MVP Scope Definition\nslug: mvp-scope-definition\ndescription: MVP Scope Definition playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: product\ntags:\n  - product\n  - strategy\n  - execution\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need mvp scope definition for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use mvp-scope-definition to plan this feature delivery.\"\n- \"Run mvp-scope-definition against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Naming Consistency Pass",
+    "slug": "naming-consistency-pass",
+    "category": "refactoring",
+    "tags": [
+      "refactoring",
+      "maintainability",
+      "cleanup"
+    ],
+    "description": "Naming Consistency Pass playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/naming-consistency-pass/SKILL.md",
+    "content": "---\nname: Naming Consistency Pass\nslug: naming-consistency-pass\ndescription: Naming Consistency Pass playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: refactoring\ntags:\n  - refactoring\n  - maintainability\n  - cleanup\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need naming consistency pass for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use naming-consistency-pass to plan this feature delivery.\"\n- \"Run naming-consistency-pass against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "North Star Metrics",
+    "slug": "north-star-metrics",
+    "category": "product",
+    "tags": [
+      "product",
+      "strategy",
+      "execution"
+    ],
+    "description": "North Star Metrics playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/north-star-metrics/SKILL.md",
+    "content": "---\nname: North Star Metrics\nslug: north-star-metrics\ndescription: North Star Metrics playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: product\ntags:\n  - product\n  - strategy\n  - execution\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need north star metrics for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use north-star-metrics to plan this feature delivery.\"\n- \"Run north-star-metrics against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Observability Setup",
+    "slug": "observability-setup",
+    "category": "devops",
+    "tags": [
+      "devops",
+      "automation",
+      "operations"
+    ],
+    "description": "Observability Setup playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/observability-setup/SKILL.md",
+    "content": "---\nname: Observability Setup\nslug: observability-setup\ndescription: Observability Setup playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: devops\ntags:\n  - devops\n  - automation\n  - operations\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need observability setup for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use observability-setup to plan this feature delivery.\"\n- \"Run observability-setup against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Onboarding Guide Author",
+    "slug": "onboarding-guide-author",
+    "category": "documentation",
+    "tags": [
+      "documentation",
+      "communication",
+      "clarity"
+    ],
+    "description": "Onboarding Guide Author playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/onboarding-guide-author/SKILL.md",
+    "content": "---\nname: Onboarding Guide Author\nslug: onboarding-guide-author\ndescription: Onboarding Guide Author playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: documentation\ntags:\n  - documentation\n  - communication\n  - clarity\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need onboarding guide author for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use onboarding-guide-author to plan this feature delivery.\"\n- \"Run onboarding-guide-author against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Pair Programming Mode",
+    "slug": "pair-programming-mode",
+    "category": "coding",
+    "tags": [
+      "coding",
+      "implementation",
+      "delivery"
+    ],
+    "description": "Pair Programming Mode playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/pair-programming-mode/SKILL.md",
+    "content": "---\nname: Pair Programming Mode\nslug: pair-programming-mode\ndescription: Pair Programming Mode playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: coding\ntags:\n  - coding\n  - implementation\n  - delivery\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need pair programming mode for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use pair-programming-mode to plan this feature delivery.\"\n- \"Run pair-programming-mode against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Performance Profiling",
+    "slug": "performance-profiling",
+    "category": "performance",
+    "tags": [
+      "performance",
+      "scalability",
+      "optimization"
+    ],
+    "description": "Performance Profiling playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/performance-profiling/SKILL.md",
+    "content": "---\nname: Performance Profiling\nslug: performance-profiling\ndescription: Performance Profiling playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: performance\ntags:\n  - performance\n  - scalability\n  - optimization\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need performance profiling for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use performance-profiling to plan this feature delivery.\"\n- \"Run performance-profiling against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Postmortem Analysis",
+    "slug": "postmortem-analysis",
+    "category": "research",
+    "tags": [
+      "research",
+      "analysis",
+      "evidence"
+    ],
+    "description": "Postmortem Analysis playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/postmortem-analysis/SKILL.md",
+    "content": "---\nname: Postmortem Analysis\nslug: postmortem-analysis\ndescription: Postmortem Analysis playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: research\ntags:\n  - research\n  - analysis\n  - evidence\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need postmortem analysis for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use postmortem-analysis to plan this feature delivery.\"\n- \"Run postmortem-analysis against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Prompt Hardening",
+    "slug": "prompt-hardening",
+    "category": "security",
+    "tags": [
+      "security",
+      "risk",
+      "hardening"
+    ],
+    "description": "Prompt Hardening playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/prompt-hardening/SKILL.md",
+    "content": "---\nname: Prompt Hardening\nslug: prompt-hardening\ndescription: Prompt Hardening playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: security\ntags:\n  - security\n  - risk\n  - hardening\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need prompt hardening for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use prompt-hardening to plan this feature delivery.\"\n- \"Run prompt-hardening against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Query Optimization",
+    "slug": "query-optimization",
+    "category": "performance",
+    "tags": [
+      "performance",
+      "scalability",
+      "optimization"
+    ],
+    "description": "Query Optimization playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/query-optimization/SKILL.md",
+    "content": "---\nname: Query Optimization\nslug: query-optimization\ndescription: Query Optimization playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: performance\ntags:\n  - performance\n  - scalability\n  - optimization\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need query optimization for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use query-optimization to plan this feature delivery.\"\n- \"Run query-optimization against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "RAG Pipeline Design",
+    "slug": "rag-pipeline-design",
+    "category": "ai-engineering",
+    "tags": [
+      "ai",
+      "agents",
+      "llm"
+    ],
+    "description": "RAG Pipeline Design playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/rag-pipeline-design/SKILL.md",
+    "content": "---\nname: RAG Pipeline Design\nslug: rag-pipeline-design\ndescription: RAG Pipeline Design playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: ai-engineering\ntags:\n  - ai\n  - agents\n  - llm\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need rag pipeline design for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use rag-pipeline-design to plan this feature delivery.\"\n- \"Run rag-pipeline-design against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Refactor Legacy Code",
+    "slug": "refactor-legacy-code",
+    "category": "refactoring",
+    "tags": [
+      "refactoring",
+      "maintainability",
+      "cleanup"
+    ],
+    "description": "Refactor Legacy Code playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/refactor-legacy-code/SKILL.md",
+    "content": "---\nname: Refactor Legacy Code\nslug: refactor-legacy-code\ndescription: Refactor Legacy Code playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: refactoring\ntags:\n  - refactoring\n  - maintainability\n  - cleanup\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need refactor legacy code for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use refactor-legacy-code to plan this feature delivery.\"\n- \"Run refactor-legacy-code against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Regression Hunt",
+    "slug": "regression-hunt",
+    "category": "debugging",
+    "tags": [
+      "debugging",
+      "investigation",
+      "reliability"
+    ],
+    "description": "Regression Hunt playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/regression-hunt/SKILL.md",
+    "content": "---\nname: Regression Hunt\nslug: regression-hunt\ndescription: Regression Hunt playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: debugging\ntags:\n  - debugging\n  - investigation\n  - reliability\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need regression hunt for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use regression-hunt to plan this feature delivery.\"\n- \"Run regression-hunt against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Release Automation",
+    "slug": "release-automation",
+    "category": "devops",
+    "tags": [
+      "devops",
+      "automation",
+      "operations"
+    ],
+    "description": "Release Automation playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/release-automation/SKILL.md",
+    "content": "---\nname: Release Automation\nslug: release-automation\ndescription: Release Automation playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: devops\ntags:\n  - devops\n  - automation\n  - operations\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need release automation for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use release-automation to plan this feature delivery.\"\n- \"Run release-automation against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Requirements Clarifier",
+    "slug": "requirements-clarifier",
+    "category": "planning",
+    "tags": [
+      "planning",
+      "alignment",
+      "scope"
+    ],
+    "description": "Requirements Clarifier playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/requirements-clarifier/SKILL.md",
+    "content": "---\nname: Requirements Clarifier\nslug: requirements-clarifier\ndescription: Requirements Clarifier playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: planning\ntags:\n  - planning\n  - alignment\n  - scope\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need requirements clarifier for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use requirements-clarifier to plan this feature delivery.\"\n- \"Run requirements-clarifier against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Risk Register Creation",
+    "slug": "risk-register",
+    "category": "planning",
+    "tags": [
+      "planning",
+      "alignment",
+      "scope"
+    ],
+    "description": "Risk Register Creation playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/risk-register/SKILL.md",
+    "content": "---\nname: Risk Register Creation\nslug: risk-register\ndescription: Risk Register Creation playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: planning\ntags:\n  - planning\n  - alignment\n  - scope\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need risk register creation for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use risk-register to plan this feature delivery.\"\n- \"Run risk-register against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Roadmap Planning",
+    "slug": "roadmap-planning",
+    "category": "planning",
+    "tags": [
+      "planning",
+      "alignment",
+      "scope"
+    ],
+    "description": "Roadmap Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/roadmap-planning/SKILL.md",
+    "content": "---\nname: Roadmap Planning\nslug: roadmap-planning\ndescription: Roadmap Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: planning\ntags:\n  - planning\n  - alignment\n  - scope\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need roadmap planning for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use roadmap-planning to plan this feature delivery.\"\n- \"Run roadmap-planning against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Runbook Writer",
+    "slug": "runbook-writer",
+    "category": "documentation",
+    "tags": [
+      "documentation",
+      "communication",
+      "clarity"
+    ],
+    "description": "Runbook Writer playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/runbook-writer/SKILL.md",
+    "content": "---\nname: Runbook Writer\nslug: runbook-writer\ndescription: Runbook Writer playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: documentation\ntags:\n  - documentation\n  - communication\n  - clarity\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need runbook writer for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use runbook-writer to plan this feature delivery.\"\n- \"Run runbook-writer against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Safety Evals",
+    "slug": "safety-evals",
+    "category": "ai-engineering",
+    "tags": [
+      "ai",
+      "agents",
+      "llm"
+    ],
+    "description": "Safety Evals playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/safety-evals/SKILL.md",
+    "content": "---\nname: Safety Evals\nslug: safety-evals\ndescription: Safety Evals playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: ai-engineering\ntags:\n  - ai\n  - agents\n  - llm\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need safety evals for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use safety-evals to plan this feature delivery.\"\n- \"Run safety-evals against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Secret Leak Response",
+    "slug": "secret-leak-response",
+    "category": "security",
+    "tags": [
+      "security",
+      "risk",
+      "hardening"
+    ],
+    "description": "Secret Leak Response playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/secret-leak-response/SKILL.md",
+    "content": "---\nname: Secret Leak Response\nslug: secret-leak-response\ndescription: Secret Leak Response playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: security\ntags:\n  - security\n  - risk\n  - hardening\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need secret leak response for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use secret-leak-response to plan this feature delivery.\"\n- \"Run secret-leak-response against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Security Review",
+    "slug": "security-review",
+    "category": "security",
+    "tags": [
+      "security",
+      "risk",
+      "hardening"
+    ],
+    "description": "Security Review playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/security-review/SKILL.md",
+    "content": "---\nname: Security Review\nslug: security-review\ndescription: Security Review playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: security\ntags:\n  - security\n  - risk\n  - hardening\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need security review for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use security-review to plan this feature delivery.\"\n- \"Run security-review against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Sprint Planning",
+    "slug": "sprint-planning",
+    "category": "planning",
+    "tags": [
+      "planning",
+      "alignment",
+      "scope"
+    ],
+    "description": "Sprint Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/sprint-planning/SKILL.md",
+    "content": "---\nname: Sprint Planning\nslug: sprint-planning\ndescription: Sprint Planning playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: planning\ntags:\n  - planning\n  - alignment\n  - scope\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need sprint planning for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use sprint-planning to plan this feature delivery.\"\n- \"Run sprint-planning against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "State Machine Debugging",
+    "slug": "state-machine-debugging",
+    "category": "debugging",
+    "tags": [
+      "debugging",
+      "investigation",
+      "reliability"
+    ],
+    "description": "State Machine Debugging playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/state-machine-debugging/SKILL.md",
+    "content": "---\nname: State Machine Debugging\nslug: state-machine-debugging\ndescription: State Machine Debugging playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: debugging\ntags:\n  - debugging\n  - investigation\n  - reliability\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need state machine debugging for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use state-machine-debugging to plan this feature delivery.\"\n- \"Run state-machine-debugging against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "System Boundary Mapping",
+    "slug": "system-boundary-mapping",
+    "category": "architecture",
+    "tags": [
+      "architecture",
+      "systems",
+      "design"
+    ],
+    "description": "System Boundary Mapping playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "advanced",
+    "path": "skills/system-boundary-mapping/SKILL.md",
+    "content": "---\nname: System Boundary Mapping\nslug: system-boundary-mapping\ndescription: System Boundary Mapping playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: architecture\ntags:\n  - architecture\n  - systems\n  - design\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: advanced\n---\n\n# When to use\nUse this skill when you need system boundary mapping for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use system-boundary-mapping to plan this feature delivery.\"\n- \"Run system-boundary-mapping against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Technical Spike",
+    "slug": "technical-spike",
+    "category": "research",
+    "tags": [
+      "research",
+      "analysis",
+      "evidence"
+    ],
+    "description": "Technical Spike playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/technical-spike/SKILL.md",
+    "content": "---\nname: Technical Spike\nslug: technical-spike\ndescription: Technical Spike playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: research\ntags:\n  - research\n  - analysis\n  - evidence\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need technical spike for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use technical-spike to plan this feature delivery.\"\n- \"Run technical-spike against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Test Driven Development",
+    "slug": "test-driven-development",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "quality",
+      "verification"
+    ],
+    "description": "Test Driven Development playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/test-driven-development/SKILL.md",
+    "content": "---\nname: Test Driven Development\nslug: test-driven-development\ndescription: Test Driven Development playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: testing\ntags:\n  - testing\n  - quality\n  - verification\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need test driven development for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use test-driven-development to plan this feature delivery.\"\n- \"Run test-driven-development against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Threat Modeling",
+    "slug": "threat-modeling",
+    "category": "security",
+    "tags": [
+      "security",
+      "risk",
+      "hardening"
+    ],
+    "description": "Threat Modeling playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/threat-modeling/SKILL.md",
+    "content": "---\nname: Threat Modeling\nslug: threat-modeling\ndescription: Threat Modeling playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: security\ntags:\n  - security\n  - risk\n  - hardening\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need threat modeling for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use threat-modeling to plan this feature delivery.\"\n- \"Run threat-modeling against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "Unit Test Author",
+    "slug": "unit-test-author",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "quality",
+      "verification"
+    ],
+    "description": "Unit Test Author playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/unit-test-author/SKILL.md",
+    "content": "---\nname: Unit Test Author\nslug: unit-test-author\ndescription: Unit Test Author playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: testing\ntags:\n  - testing\n  - quality\n  - verification\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need unit test author for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use unit-test-author to plan this feature delivery.\"\n- \"Run unit-test-author against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  },
+  {
+    "name": "User Story Refinement",
+    "slug": "user-story-refinement",
+    "category": "product",
+    "tags": [
+      "product",
+      "strategy",
+      "execution"
+    ],
+    "description": "User Story Refinement playbook for AI assistants to produce production-ready outcomes with explicit checks.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "intermediate",
+    "path": "skills/user-story-refinement/SKILL.md",
+    "content": "---\nname: User Story Refinement\nslug: user-story-refinement\ndescription: User Story Refinement playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: product\ntags:\n  - product\n  - strategy\n  - execution\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: intermediate\n---\n\n# When to use\nUse this skill when you need user story refinement for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use user-story-refinement to plan this feature delivery.\"\n- \"Run user-story-refinement against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
+  }
+]
