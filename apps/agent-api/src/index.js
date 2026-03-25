@@ -232,3 +232,6 @@ export default {
     );
   },
 };
+
+
+export const __testables = { parseAllowedOrigins, resolveOrigin, trimMessages, consumeRateLimit };
