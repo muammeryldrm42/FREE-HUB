@@ -60,6 +60,16 @@ Quick start:
 ```bash
 npm --prefix apps/agent-api install
 npx --prefix apps/agent-api wrangler secret put OPENAI_API_KEY
+npx --prefix apps/agent-api wrangler secret put CLIENT_API_KEY
+npm --prefix apps/agent-api run deploy
+```
+
+Then configure web app env (see `apps/web-app/.env.example`):
+```bash
+VITE_AGENT_API_URL=https://<your-worker-domain>/chat
+VITE_AGENT_PUBLIC_KEY=<CLIENT_API_KEY>
+```
+
 npm --prefix apps/agent-api run deploy
 ```
 
