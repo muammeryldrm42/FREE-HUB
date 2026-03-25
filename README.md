@@ -52,6 +52,26 @@ npm run build:all
 2. Enable Pages using GitHub Actions.
 3. Run `pages.yml` workflow; app is built with static data from `public/data`.
 
+## Agent API for GitHub Pages
+GitHub Pages is static, so AI assistant calls should go through a serverless API.
+This repository includes a ready Cloudflare Worker in `apps/agent-api/`.
+
+Quick start:
+```bash
+npm --prefix apps/agent-api install
+npx --prefix apps/agent-api wrangler secret put OPENAI_API_KEY
+npx --prefix apps/agent-api wrangler secret put CLIENT_API_KEY
+npm --prefix apps/agent-api run deploy
+```
+
+Then configure web app env (see `apps/web-app/.env.example`):
+```bash
+VITE_AGENT_API_URL=https://<your-worker-domain>/chat
+VITE_AGENT_PUBLIC_KEY=<CLIENT_API_KEY>
+```
+
+Guide: `docs/users/github-pages-agent-api.md`
+
 ## Contributing
 Read `CONTRIBUTING.md`, `docs/contributors/quality-bar.md`, and `docs/contributors/skill-template.md`.
 
