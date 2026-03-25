@@ -4,5 +4,6 @@ compatibility_date = "2026-03-25"
 
 [vars]
 ALLOWED_ORIGINS = "https://your-user.github.io"
+ALLOWED_ORIGIN = "*"
 OPENAI_MODEL = "gpt-4.1-mini"
 SYSTEM_PROMPT = "You are Talons Skills Hub assistant. Answer based on this repository structure: skills/, agents/, docs/, data/. If unsure, say what is missing and ask for clarification."

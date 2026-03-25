@@ -70,6 +70,9 @@ VITE_AGENT_API_URL=https://<your-worker-domain>/chat
 VITE_AGENT_PUBLIC_KEY=<CLIENT_API_KEY>
 ```
 
+npm --prefix apps/agent-api run deploy
+```
+
 Guide: `docs/users/github-pages-agent-api.md`
 
 ## Contributing

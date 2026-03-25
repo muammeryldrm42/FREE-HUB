@@ -35,6 +35,10 @@ After deploy, configure your Pages app env:
 ```txt
 VITE_AGENT_API_URL=https://<your-worker-domain>/chat
 VITE_AGENT_PUBLIC_KEY=<same-as-CLIENT_API_KEY>
+After deploy, configure your Pages app to call:
+
+```txt
+https://<your-worker-domain>/chat
 ```
 
 ## Example request
@@ -60,3 +64,7 @@ curl -X POST "https://<your-worker-domain>/chat" \
   }
 }
 ```
+## Security recommendations
+- Set `ALLOWED_ORIGIN` in `wrangler.toml` to your exact Pages domain.
+- Add Cloudflare rate limiting / bot protection.
+- Keep prompts and repository context bounded (do not forward unbounded history).

@@ -35,3 +35,9 @@ VITE_AGENT_PUBLIC_KEY=<CLIENT_API_KEY>
 - Model anahtarı (`OPENAI_API_KEY`) sadece backend secret olarak kalmalıdır.
 - `ALLOWED_ORIGINS` değerine sadece kendi Pages domaininizi yazın.
 - Kötüye kullanım için rate-limit aktif tutulmalıdır.
+Deploy sonrası frontend tarafında Worker URL'sini kullanın.
+
+## Public API konusu
+- Endpoint'iniz internete açık (**public**) olabilir.
+- Ancak model anahtarınız (`OPENAI_API_KEY`) kesinlikle backend'de kalmalıdır.
+- `ALLOWED_ORIGIN` değerini Pages domain'inize sabitleyin.
