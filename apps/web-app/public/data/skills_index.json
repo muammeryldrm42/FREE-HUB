@@ -1080,6 +1080,27 @@
     "content": "---\nname: Onboarding Guide Author\nslug: onboarding-guide-author\ndescription: Onboarding Guide Author playbook for AI assistants to produce production-ready outcomes with explicit checks.\ncategory: documentation\ntags:\n  - documentation\n  - communication\n  - clarity\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you need onboarding guide author for an engineering task and want deterministic, reviewable output.\n\n# Inputs\n- Goal and success metrics\n- Repository or system context\n- Constraints (time, risk, dependencies)\n- Non-goals and exclusions\n\n# Steps\n1. Restate objective and constraints in one paragraph.\n2. Inspect current artifacts, code, or docs before proposing changes.\n3. Produce a prioritized plan with explicit trade-offs.\n4. Execute in small verifiable increments with checks after each increment.\n5. Summarize output with risks, follow-ups, and rollback guidance.\n\n# Output format\n- **Summary**: what changed and why\n- **Plan**: ordered checklist\n- **Deliverables**: concrete patches, commands, or docs\n- **Validation**: tests/checks run and expected outcomes\n- **Risks**: open issues and mitigations\n\n# Quality checklist\n- Objective mapped to outputs\n- Assumptions explicit\n- Trade-offs documented\n- Validation commands included\n- Safety/privacy constraints respected\n\n# Example invocations\n- \"Use onboarding-guide-author to plan this feature delivery.\"\n- \"Run onboarding-guide-author against this module and provide concrete next steps.\"\n\n# Safety / limitations\nThis skill improves structure but does not replace domain experts, legal review, or production approvals."
   },
   {
+    "name": "Open Claw Repo Bootstrap",
+    "slug": "open-claw-repo-bootstrap",
+    "category": "planning",
+    "tags": [
+      "workflow",
+      "repository",
+      "agents",
+      "skills"
+    ],
+    "description": "Upgrade a repository into an Open Claw-style agents + skills layout with consistent docs and validation steps.",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "codex-cli",
+      "gemini-cli"
+    ],
+    "difficulty": "beginner",
+    "path": "skills/open-claw-repo-bootstrap/SKILL.md",
+    "content": "---\nname: Open Claw Repo Bootstrap\nslug: open-claw-repo-bootstrap\ndescription: Upgrade a repository into an Open Claw-style agents + skills layout with consistent docs and validation steps.\ncategory: planning\ntags:\n  - workflow\n  - repository\n  - agents\n  - skills\nsupported_tools:\n  - claude-code\n  - cursor\n  - codex-cli\n  - gemini-cli\ndifficulty: beginner\n---\n\n# When to use\nUse this skill when you want to modernize a repo so it includes both reusable skills and assistant-specific agent profiles.\n\n# Inputs\n- Current repository structure\n- Target assistants/tools to support\n- Required docs and validation commands\n\n# Steps\n1. Inspect repository for existing `skills/`, docs, and generated data flow.\n2. Add/update root guidance (`AGENTS.md`) to define contributor and agent behavior.\n3. Add assistant-specific profiles under `agents/` (Codex, Claude, Cursor, Gemini as needed).\n4. Add or update one migration/bootstrap skill that documents the upgrade workflow.\n5. Update README/docs so new assets are discoverable.\n6. Run validation and generation commands to keep indices/catalogs in sync.\n\n# Output format\n- **Changes**: list of files created/updated\n- **Validation**: commands and outputs\n- **Follow-ups**: optional next improvements\n\n# Quality checklist\n- Agent files are present and readable.\n- New skill has valid frontmatter.\n- README/docs mention agents and migration path.\n- Validation scripts pass.\n\n# Example invocations\n- \"Use open-claw-repo-bootstrap to prepare this repo for Codex + Cursor + Claude.\"\n- \"Run open-claw-repo-bootstrap and add agent templates plus docs updates.\"\n\n# Safety / limitations\nThis skill standardizes structure and process. It does not guarantee security review, legal review, or runtime compatibility with every AI tool version.\n"
+  },
+  {
     "name": "Pair Programming Mode",
     "slug": "pair-programming-mode",
     "category": "coding",

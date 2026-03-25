@@ -1,6 +1,6 @@
 # Talons Skills Hub Catalog
 
-Generated catalog for 78 skills.
+Generated catalog for 79 skills.
 
 ## ai-engineering
 
@@ -113,6 +113,8 @@ Generated catalog for 78 skills.
   Path: `skills/agent-workflow-planning/SKILL.md` · Tools: claude-code, cursor, codex-cli, gemini-cli
 - **Brainstorming** (`brainstorming`) — Brainstorming playbook for AI assistants to produce production-ready outcomes with explicit checks.  
   Path: `skills/brainstorming/SKILL.md` · Tools: claude-code, cursor, codex-cli, gemini-cli
+- **Open Claw Repo Bootstrap** (`open-claw-repo-bootstrap`) — Upgrade a repository into an Open Claw-style agents + skills layout with consistent docs and validation steps.  
+  Path: `skills/open-claw-repo-bootstrap/SKILL.md` · Tools: claude-code, cursor, codex-cli, gemini-cli
 - **Requirements Clarifier** (`requirements-clarifier`) — Requirements Clarifier playbook for AI assistants to produce production-ready outcomes with explicit checks.  
   Path: `skills/requirements-clarifier/SKILL.md` · Tools: claude-code, cursor, codex-cli, gemini-cli
 - **Risk Register Creation** (`risk-register`) — Risk Register Creation playbook for AI assistants to produce production-ready outcomes with explicit checks.  
