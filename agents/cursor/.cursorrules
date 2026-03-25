@@ -1,0 +1,6 @@
+# Cursor rules (Open Claw style)
+
+- Prefer existing `skills/*/SKILL.md` patterns before inventing custom workflows.
+- Keep code changes scoped; avoid unrelated refactors.
+- When adding a new skill, include complete YAML frontmatter and realistic examples.
+- Always run repository validation scripts before finalizing changes.

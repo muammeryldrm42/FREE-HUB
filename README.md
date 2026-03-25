@@ -1,12 +1,13 @@
 # Talons Skills Hub
 
-Talons Skills Hub is an original, installable AI skills platform for engineering assistants (Codex CLI, Claude Code, Cursor, Gemini CLI, and similar tools).
+Talons Skills Hub is an original, installable AI skills platform for engineering assistants (Codex CLI, Claude Code, Cursor, Gemini CLI, and similar tools). It now also includes an Open Claw-style `agents/` layer for assistant-specific bootstrap profiles.
 
 ## Why this exists
 Teams need reusable, validated operating playbooks—not loose prompt snippets. Talons Skills Hub ships a canonical `skills/` library, installer CLI, metadata generation, docs, and a static browser app.
 
 ## Project structure
 - `skills/`: canonical skill definitions (`skills/<slug>/SKILL.md`)
+- `agents/`: assistant-specific profile templates (`agents/<tool>/...`)
 - `tools/`: installer, validation, catalog/index generation scripts
 - `data/`: bundles, workflows, categories, generated `skills.json`
 - `apps/web-app/`: Vite + React static browser app
@@ -26,6 +27,15 @@ npm run install -- --tool codex-cli
   npm run app:install
   npm run app:dev
   ```
+
+
+## Open Claw-style bootstrap
+For teams that want a ready-to-run assistant setup, this repo now ships:
+- Root `AGENTS.md` contributor/agent contract
+- Assistant profile templates in `agents/`
+- A migration skill: `skills/open-claw-repo-bootstrap/SKILL.md`
+
+Read `docs/users/open-claw-mode.md` for setup guidance.
 
 ## Bundles and workflows
 Bundles are install presets (Starter Developer, AI Engineer, Debugging, Security, MVP Builder, Documentation). Workflows map multi-skill paths for common jobs.
