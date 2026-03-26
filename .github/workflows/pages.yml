@@ -23,7 +23,10 @@ jobs:
       - run: npm install
       - run: npm run generate
       - run: npm run app:install
-      - run: GITHUB_PAGES=true npm run app:build
+      - name: Build web app for GitHub Pages
+        env:
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: GITHUB_PAGES=true GITHUB_PAGES_BASE_PATH=/${REPO_NAME}/ npm run app:build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
