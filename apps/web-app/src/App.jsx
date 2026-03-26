@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 function useData(file) {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch(`/data/${file}`).then((r) => r.json()).then(setData);
+    fetch(`${import.meta.env.BASE_URL}data/${file}`).then((r) => r.json()).then(setData);
   }, [file]);
   return data;
 }
@@ -25,7 +25,7 @@ function Layout({ children }) {
           <Link to="/skills">Skills</Link>
           <Link to="/bundles">Bundles</Link>
           <Link to="/workflows">Workflows</Link>
-          <Link to="/assistant">Assistant</Link>
+          <Link to="/catalog">Catalog</Link>
           <Link to="/about">About</Link>
         </nav>
         <button onClick={() => setDark(!dark)}>{dark ? 'Light' : 'Dark'} mode</button>
@@ -36,10 +36,25 @@ function Layout({ children }) {
 }
 
 function Home() {
+  const skills = useData('skills.json');
+  const bundles = useData('bundles.json');
+  const workflows = useData('workflows.json');
+
   return (
     <section>
       <h2>Installable AI skills at scale</h2>
       <p>Discover, filter, and install reusable playbooks for coding assistants.</p>
+      <ul>
+        <li>
+          <strong>{skills.length}</strong> skills
+        </li>
+        <li>
+          <strong>{bundles.length}</strong> bundles
+        </li>
+        <li>
+          <strong>{workflows.length}</strong> workflows
+        </li>
+      </ul>
     </section>
   );
 }
@@ -108,77 +123,38 @@ function SkillDetail() {
   );
 }
 
-function Assistant() {
-  const apiUrl = import.meta.env.VITE_AGENT_API_URL || '';
-  const publicKey = import.meta.env.VITE_AGENT_PUBLIC_KEY || '';
-  const [input, setInput] = useState('');
-  const [messages, setMessages] = useState([
-    { role: 'assistant', content: 'Merhaba! Repo ile ilgili bir soru sorabilirsin.' },
-  ]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-
-  async function sendMessage() {
-    if (!input.trim() || loading) return;
-    if (!apiUrl || !publicKey) {
-      setError('Assistant henüz yapılandırılmadı. VITE_AGENT_API_URL ve VITE_AGENT_PUBLIC_KEY gerekli.');
-      return;
-    }
-
-    const nextMessages = [...messages, { role: 'user', content: input.trim() }];
-    setMessages(nextMessages);
-    setInput('');
-    setError('');
-    setLoading(true);
-
-    try {
-      const response = await fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-          'content-type': 'application/json',
-          'x-api-key': publicKey,
-        },
-        body: JSON.stringify({
-          messages: nextMessages.filter((m) => m.role === 'user' || m.role === 'assistant'),
-        }),
-      });
-
-      const payload = await response.json();
-      if (!response.ok || !payload.ok) {
-        throw new Error(payload?.error?.message || 'Assistant API hatası oluştu.');
-      }
-
-      setMessages((prev) => [...prev, { role: 'assistant', content: payload.answer || '(boş yanıt)' }]);
-    } catch (e) {
-      setError(e.message || 'İstek başarısız oldu.');
-    } finally {
-      setLoading(false);
-    }
-  }
-
+function Catalog() {
+  const skills = useData('skills.json');
+  const bundles = useData('bundles.json');
+  const flows = useData('workflows.json');
   return (
     <section>
-      <h2>Assistant</h2>
-      <p className="muted">Bu ekran Worker tabanlı Agent API ile konuşur.</p>
-      <div className="assistant-box">
-        {messages.map((m, idx) => (
-          <div key={`${m.role}-${idx}`} className={`msg msg-${m.role}`}>
-            <strong>{m.role === 'user' ? 'Sen' : 'Agent'}:</strong> {m.content}
-          </div>
+      <h2>Catalog</h2>
+      <p className="muted">Bu sayfa sohbet yerine proje içeriğini listeler.</p>
+      <h3>Öne çıkan skills</h3>
+      <ul>
+        {skills.slice(0, 12).map((s) => (
+          <li key={s.slug}>
+            <Link to={`/skills/${s.slug}`}>{s.name}</Link> — {s.category}
+          </li>
         ))}
-      </div>
-      {error ? <p className="error">{error}</p> : null}
-      <div className="assistant-controls">
-        <input
-          placeholder="Sorunu yaz..."
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => (e.key === 'Enter' ? sendMessage() : null)}
-        />
-        <button onClick={sendMessage} disabled={loading}>
-          {loading ? 'Gönderiliyor...' : 'Gönder'}
-        </button>
-      </div>
+      </ul>
+      <h3>Bundles</h3>
+      <ul>
+        {bundles.map((b) => (
+          <li key={b.slug}>
+            <strong>{b.name}</strong> — {b.description}
+          </li>
+        ))}
+      </ul>
+      <h3>Workflows</h3>
+      <ul>
+        {flows.map((w) => (
+          <li key={w.slug}>
+            <strong>{w.name}</strong> — {w.description}
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
@@ -233,7 +209,7 @@ export default function App() {
         <Route path="/skills/:slug" element={<SkillDetail />} />
         <Route path="/bundles" element={<Bundles />} />
         <Route path="/workflows" element={<Workflows />} />
-        <Route path="/assistant" element={<Assistant />} />
+        <Route path="/catalog" element={<Catalog />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Layout>
