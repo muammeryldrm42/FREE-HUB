@@ -51,6 +51,7 @@ npm run build:all
 1. Push repository to GitHub.
 2. Enable Pages using GitHub Actions.
 3. Run `pages.yml` workflow; app is built with static data from `public/data`.
+4. Workflow now auto-detects repository name and sets the correct Pages base path (`/<repo-name>/`).
 
 ## Agent API for GitHub Pages
 GitHub Pages is static, so AI assistant calls should go through a serverless API.
